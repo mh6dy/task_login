@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    display: flex;
+    margin-right: 15%;
+    justify-content: right;
+    align-items: center;
+    min-height: 100vh;
+    background: url(IMG_54501.JPG) no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+.login-box{
+    width: 430px;
+    height: 430px;
+    background: transparent;
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+    border: 2px solid rgba(247, 229, 244, 0.2);
+    backdrop-filter: blur(5px);
+
+}
+.login-box h1{
+    text-align: center;
+    font-size: 40px;
+    padding:0 0 25px 0;
+
+}
+
+.login-box .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+   /* border: none;
+    outline: none;*/
+    border: 2px solid rgba(247, 229, 244, 0.2);
+    border-radius: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 20px;
+
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%); /*ممكن حذفها والتعديل من خلال نسبة ال top */
+
+    }
+
+.login-box .but{
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgba(210, 30, 30, 0.2);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.login-box .but:hover{
+    background-color: #28aa92;
+}
+
+
+
+.login-box .regester{
+    text-align: center;
+    margin-top: 20px;
+}
+.login-box .regester p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.login-box .regester p a:hover{
+    color: #dc25e6;
+    text-decoration: underline;
+}

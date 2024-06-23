@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2-1</title>
+    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            background: url('IMG_54501.JPG') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="flex justify-end items-center min-h-screen mr-20">
+    <div class="login-box w-96 h-96 bg-transparent text-white rounded-lg p-8 border border-gray-200 backdrop-blur-sm">
+        <form action="">
+            <h1 class="text-center text-4xl mb-6">Login</h1>
+            <div class="input-box relative w-full h-12 my-8">
+                <input type="text" placeholder="Username" required class="w-full h-full bg-transparent border border-gray-200 rounded-full text-lg p-4 text-white placeholder-white">
+                <i class='bx bxs-user-pin absolute right-5 top-1/2 transform -translate-y-1/2'></i>
+            </div>
+            <div class="input-box relative w-full h-12 my-8">
+                <input class="pass w-full h-full bg-transparent border border-gray-200 rounded-full text-lg p-4 text-white placeholder-white" type="password" placeholder="Password" required>
+                <i class='bx bxs-lock absolute right-5 top-1/2 transform -translate-y-1/2'></i>
+            </div>
+            <input type="submit" class="but w-full h-10 border border-red-200 rounded-full shadow-lg cursor-pointer text-center text-lg text-black font-medium mt-8 hover:bg-green-500">
+            <div class="register text-center mt-5">
+                <p>Don't have an account? <a href="#" class="text-white font-medium hover:text-pink-600 underline">Register</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
