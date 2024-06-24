@@ -6,6 +6,7 @@
 }
 body {
     display: flex;
+    background-color: rgba(149, 229, 114,0.2);
     margin-right: 15%;
     justify-content: right;
     align-items: center;
@@ -99,3 +100,17 @@ body {
     color: #dc25e6;
     text-decoration: underline;
 }
+
+@media screen and (min-width:401px) and (max-width:768px) {
+    body{
+        background: url(IMG_54503.JPG) no-repeat;
+       }
+    
+}
+
+@media screen and (max-width:400px) {
+   body{
+    background: url(IMG_54502.JPG) no-repeat;
+   }
+}
+
